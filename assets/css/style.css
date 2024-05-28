@@ -48,6 +48,7 @@ header {
   header .brand img {
     margin-bottom: 20px;
   }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -163,12 +164,16 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
+
+
 }
 
 @media screen and (min-width: 500px) {
   h1 {
     font-size: 3rem;
   }
+
+
 
   p,
   ul,
@@ -177,8 +182,20 @@ h1 + p {
   }
 
   h2 {
+    
     font-size: 1.4rem;
     font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .news{
+    position: absolute;
+    top: -30px; 
+    left: 5%;
+    background-color: #a3a3a3; 
+    padding: 10px 20px;
+    
   }
 }
 
